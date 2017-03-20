@@ -3,9 +3,10 @@
 #include <assert.h>
 
 int main (){
-	int firstint,secondint = 0;
+	int firstint,secondint,sum = 0;
 	printf("enter two numbers \n");
 	scanf("%d %d",&firstint, &secondint);
-	printf("first number: %d \n",firstint);
+	sum = firstint + secondint;
+	printf("%d + %d = %d \n",firstint,secondint,sum);
 	return EXIT_SUCCESS;
 }
